@@ -1,0 +1,15 @@
+.about-me-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.about-me-image-wrapper{
+    margin: 0px 20px 0px 20px;
+}
+
+.about-me-content-text{
+    text-align: justify;
+    margin: 0px 10px 0px 10px;
+}

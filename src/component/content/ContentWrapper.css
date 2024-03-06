@@ -1,0 +1,5 @@
+.content-wrapper{
+    display: flex;
+    padding: 1.6vw;
+    justify-content: space-around;
+}
