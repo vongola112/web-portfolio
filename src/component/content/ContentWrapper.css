@@ -1,5 +1,5 @@
-.content-wrapper{
-    display: flex;
-    padding: 1.6vw;
-    justify-content: space-around;
+.content-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
