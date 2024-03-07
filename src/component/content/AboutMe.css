@@ -1,22 +1,26 @@
+@import "./AboutMe.css";
+
 .about-me-wrapper {
+  display: inline-flex;
+}
+
+.about-me-text-container {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
+}
+
+.about-me-text {
+  text-align: justify;
   width: 50%;
+  margin-left: 5%;
+  justify-content: center;
 }
 
 .about-me-image-wrapper {
-  margin: 0px 20px 0px 20px;
-  position: relative;
-  justify-content: right;
-  text-align: right;
-  margin-left: auto;
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 1.6vw;
+  display: flex;
+  margin: 1.6vw;
+  margin-right: 25%;
 }
 
-.about-me-content-text {
-  text-align: justify;
-  margin: 0px 10px 0px 10px;
+.about-me-image {
+  object-position: 50% 50%;
 }

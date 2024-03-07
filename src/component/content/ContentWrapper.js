@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContentWrapper.css";
-import AboutMe from "./AboutMe.js"
+import AboutMe from "./AboutMe.js";
 
 const ContentWrapper = () => {
    

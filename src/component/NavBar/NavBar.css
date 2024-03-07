@@ -5,12 +5,16 @@
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   justify-content: right;
-  text-align: right;
-  margin-left: auto;
   flex-grow: 1;
   flex-shrink: 1;
-  padding: 1.6vw;
+}
+
+.navbar-item{
+  padding: 20px;
+}
+
+.navbar-item:hover{
+  background-color: blue;
 }

@@ -7,11 +7,11 @@ const NavBar = () => {
   return (
     <div className="navbar-wrapper">
       <div>
-        <ul>Home</ul>
+        <ul className="navbar-item">Home</ul>
       </div>
       <div className="navbar">
         {navBarItem.map((item) => {
-          return <ul>{item}</ul>;
+          return <ul className="navbar-item">{item}</ul>;
         })}
       </div>
     </div>

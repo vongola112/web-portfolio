@@ -4,8 +4,8 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="about-me-wrapper">
-      <div className="about-me-intro">
-        <p>
+      <div className="about-me-text-container">
+        <p className="about-me-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
           viverra nibh cras pulvinar mattis nunc. Et tortor at risus viverra
@@ -21,8 +21,9 @@ const AboutMe = () => {
           varius. Dolor sed viverra ipsum nunc.
         </p>
       </div>
+
       <div className="about-me-image-wrapper">
-        <p>insert picture here</p>
+        <img src="sahandoy_LThumb.jpg" className="about-me-image"></img>
       </div>
     </div>
   );

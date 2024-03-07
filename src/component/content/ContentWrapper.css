@@ -1,5 +1,11 @@
 .content-wrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: nowrap;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.content-wrapper-text{
+  flex-direction: row;
 }
