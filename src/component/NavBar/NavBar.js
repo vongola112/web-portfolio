@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
 
 const navBarItem = ["Portraits", "Travel", "About", "Contact"];
 
-const NavBar = () => {
+
+const NavBar = ({onSelectComponent}) => {
+  
   return (
     <div className="navbar-wrapper">
-      <div>
-        <ul className="navbar-item">Home</ul>
+      <div className="navbar-home">
+        <div className="navbar-item" onClick={() => onSelectComponent("Home")}>Home</div>
       </div>
       <div className="navbar">
         {navBarItem.map((item) => {
-          return <ul className="navbar-item">{item}</ul>;
+          return <div className="navbar-item" key={item} onClick={() => onSelectComponent(item)}>{item}</div>;
         })}
       </div>
     </div>

@@ -1,11 +1,6 @@
 .content-wrapper {
-  display: inline-flex;
-  flex-wrap: nowrap;
+  display: flex;
   align-items: center;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.content-wrapper-text{
-  flex-direction: row;
+  height: 100%;
+  flex-direction: column;
 }

@@ -23,10 +23,10 @@ const AboutMe = () => {
       </div>
 
       <div className="about-me-image-wrapper">
-        <img src="sahandoy_LThumb.jpg" className="about-me-image"></img>
+        <img key="" className="about-me-image" src="./images/L1000679.jpg" ></img>
       </div>
     </div>
   );
 };
 
-export default AboutMe;
+export default AboutMe

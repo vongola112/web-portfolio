@@ -1,18 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// index.js
+import React, { useState } from "react";
+import NavBar from "./component/NavBar/NavBar.js";
+import "./index.css";
+import ContentWrapper from "./component/content/ContentWrapper.js";
 
-function App() {
+const App = () => {
+  const [selectedComponent, setSelectedComponent] = useState("Home");
+
+  const handleSelectComponent = (component) => {
+    setSelectedComponent(component);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div>
+      <div className="header">
+        <NavBar onSelectComponent={handleSelectComponent} />
+      </div>
 
-      </header>
+      <ContentWrapper selectedComponent={selectedComponent} />
     </div>
   );
-}
+};
 
 export default App;

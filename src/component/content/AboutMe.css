@@ -1,26 +1,30 @@
 @import "./AboutMe.css";
 
 .about-me-wrapper {
-  display: inline-flex;
+  display: flex;
+  height: 100%;
 }
 
 .about-me-text-container {
   display: flex;
+  justify-content: flex-end;
 }
 
 .about-me-text {
-  text-align: justify;
-  width: 50%;
+  align-items: center;
+  display: flex;
   margin-left: 5%;
-  justify-content: center;
+  padding-left: 5%;
+  font-size: 24px;
 }
 
 .about-me-image-wrapper {
   display: flex;
   margin: 1.6vw;
-  margin-right: 25%;
+  padding-right: 5%;
 }
 
 .about-me-image {
-  object-position: 50% 50%;
+  width: 800px;
+  height: 100%;
 }

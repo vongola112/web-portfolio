@@ -6,15 +6,24 @@
 
 .navbar {
   display: inline-flex;
-  justify-content: right;
+  justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
-.navbar-item{
+.navbar-home {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-item {
   padding: 20px;
 }
 
-.navbar-item:hover{
+.navbar-item:hover {
   background-color: blue;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
 }
